@@ -434,8 +434,7 @@ if __name__ == '__main__':
     # TD.main(X_df, y_array, test_size=0.3, random_state=rng, prob=False)
 
     '''test: train.xlsx'''
-    path = r'C:\Users\dillhui\Desktop\option\tree\\'
-    data = pd.read_excel(path+'train.xlsx', index_col=0)
+    data = pd.read_excel('./train.xlsx', index_col=0)
     X_df = data[data.columns[-2:]]
     y_array = data[data.columns[0]].values
     TD = DecisionTreeCustomized()
