@@ -17,15 +17,15 @@ Given a testing set of features (with/without labels), referring to the trained 
 
 ### Packages
 #### `numpy` and `pandas`
-for data manipulation and storing structure.
+For data manipulation and storing structure.
 
 #### `sklearn`
-for packaged machine learning tools,
+For packaged machine learning tools,
 
 namely, `sklearn.model_selection.train_test_split()`, `sklearn.tree.DecisionTreeClassifier()`.
 
 #### `anytree`
-for packaged tree structure and tools, 
+For packaged tree structure and tools, 
 
 namely, `Node()` for tree construction and data storing, `RenderTree()` for tree iteration and rendering.
 
