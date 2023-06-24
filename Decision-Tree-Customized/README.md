@@ -9,13 +9,16 @@ Implement a customized decision tree for binary classification with specified de
 ### Implementation
 
 #### Packages
-`numpy` and `pandas` for data manipulation and storing structure.
+##### `numpy` and `pandas`
+for data manipulation and storing structure.
 
-`sklearn` for packaged machine learning tools,
+##### `sklearn`
+for packaged machine learning tools,
 
 namely, `sklearn.model_selection.train_test_split()`, `sklearn.tree.DecisionTreeClassifier()`.
 
-`anytree` for packaged tree structure and tools, 
+##### `anytree`
+for packaged tree structure and tools, 
 
 namely, `Node()` for tree construction and data storing, `RenderTree()` for tree iteration and rendering.
 
